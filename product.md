@@ -37,8 +37,7 @@ This section shows how developers can make use of the features of this specifica
     "awards": [],
     "is_available": true,
     "format": "playaway_light",
-    "package_type": null,
-    "package_size": null
+    "package_type": null
 }
 ```
 
