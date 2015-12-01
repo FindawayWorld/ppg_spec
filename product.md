@@ -141,13 +141,4 @@ The `package_type` member is a __String__ that represents the Product's package 
 Possible non-null values:
 
 - portfolio_case
-- folding_case
 - hanging_bag
-
-### 2.22 `package_size` member
-The `package_size` member is a __String__ that represents the Product's package size. If the Product does not have a package size, the value should be __null__.
-
-Possible non-null values:
-
-- large
-- small
