@@ -28,7 +28,7 @@ This section shows how developers can make use of the features of this specifica
     "address": {
         "street": ["2111 Snow Road"],
         "city": "Parma",
-        "subdivision": "US-OH",
+        "region": "US-OH",
         "postal_code": "44134",
         "country": "US"
     }
@@ -70,11 +70,11 @@ The `street` member is an __Array__ that contains all street related information
 #### 2.7.2 `city` member
 The `city` member is a __String__ that represents the city name.
 
-#### 2.7.3 `subdivision` member
-The `subdivision` member is a __String__ that represents the [ISO 3166-2](https://en.wikipedia.org/wiki/ISO_3166-2) subdivision abbreviation.
+#### 2.7.3 `region` member
+The `region` member is a __String__ that represents the [ISO 3166-2](https://en.wikipedia.org/wiki/ISO_3166-2) region (subdivision) abbreviation.
 
 #### 2.7.4 `postal_code` member
-The `postal_code` member is a __String__ that represents the postal code for the subdivision.
+The `postal_code` member is a __String__ that represents the postal code for the region.
 
 #### 2.7.5 `country` member
 The `country` member is a __String__ that represents the [ISO 3166-1](https://en.wikipedia.org/wiki/ISO_3166-2) country abbreviation.
