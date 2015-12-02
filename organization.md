@@ -23,6 +23,14 @@ This section shows how developers can make use of the features of this specifica
         "accessory": 0.25,
         "service": 0.25,
         "recorded_books": 0.05
+    },
+    "category": "findaway_direct",
+    "address": {
+        "street": ["2111 Snow Road"],
+        "city": "Parma",
+        "subdivision": "US-OH",
+        "postal_code": "44134",
+        "country": "US"
     }
 }
 ```
@@ -49,3 +57,24 @@ The `ils_enabled` member is a __Boolean__ that identifies if the Organization ha
 
 ### 2.5 `price_contracts` member
 The `price_contracts` member is an __Object__ of _key:value_ pairs that identify the price contract discounts for zero or more product types. Each _key_ is a [Product](product.md) `format` member value, and its _value_ is the discount amount as a decimal __Float__.
+
+### 2.6 `category` member
+The `category` member is a __String__ that represents the organization type. This value should be all lowercase with special characters removed and spaces converted to underscores.
+
+### 2.7 `address` member
+The `address` member is an __Object__ that represents the organization's main address.
+
+#### 2.7.1 `street` member
+The `street` member is an __Array__ that contains all street related information for the address. Each street line is a separate item int the __Array__.
+
+#### 2.7.2 `city` member
+The `city` member is a __String__ that represents the city name.
+
+#### 2.7.3 `subdivision` member
+The `subdivision` member is a __String__ that represents the [ISO 3166-2](https://en.wikipedia.org/wiki/ISO_3166-2) subdivision abbreviation.
+
+#### 2.7.4 `postal_code` member
+The `postal_code` member is a __String__ that represents the postal code for the subdivision.
+
+#### 2.7.5 `country` member
+The `country` member is a __String__ that represents the [ISO 3166-1](https://en.wikipedia.org/wiki/ISO_3166-2) country abbreviation.
