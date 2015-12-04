@@ -19,7 +19,8 @@ This section shows how developers can make use of the features of this specifica
     "price_contracts": {
         "playaway_light": 0.25,
         "playaway_view": 0.05,
-        "playaway_bookpack": 0.05,
+        "playaway_bookpacks": 0.05,
+        "playaway_launchpad": 0.0,
         "accessory": 0.25,
         "service": 0.25,
         "recorded_books": 0.05
