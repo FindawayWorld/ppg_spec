@@ -10,10 +10,12 @@ This section shows how developers can make use of the features of this specifica
 ```json
 {
     "id": "01fc7fce-bf78-4b50-903a-fb3b760f5b30",
+    "netsuite_id": "999999",
     "name": {
         "long": "Cuyahoga County Public Library",
         "short": "CCPL"
     },
+    "web_address": "http://www.findaway.com",
     "currency": "USD",
     "ils_enabled": false,
     "price_contracts": {
@@ -26,13 +28,27 @@ This section shows how developers can make use of the features of this specifica
         "recorded_books": 0.05
     },
     "category": "findaway_direct",
-    "address": {
+    "shipping_address": {
         "street": ["2111 Snow Road"],
         "city": "Parma",
         "region": "US-OH",
         "postal_code": "44134",
         "country": "US"
-    }
+    },
+    "biling_address": {
+        "street": ["2111 Snow Road"],
+        "city": "Parma",
+        "region": "US-OH",
+        "postal_code": "44134",
+        "country": "US"
+    },
+    "phone_number": "2222222222",
+    "fax_number": "2222222222",
+    "federal_tax_id": "123456789",
+    "tax_exempt": true,
+    "tax_exempt_number": "123456789",
+    "tax_exempt_form_uri": "",
+    "notes": "",
 }
 ```
 
