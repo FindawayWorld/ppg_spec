@@ -9,8 +9,7 @@ This section shows how developers can make use of the features of this specifica
 
 ```json
 {
-    "id": "01fc7fce-bf78-4b50-903a-fb3b760f5b30",
-    "netsuite_id": "999999",
+    "id": "999999",
     "name": {
         "long": "Cuyahoga County Public Library",
         "short": "CCPL"
@@ -47,7 +46,6 @@ This section shows how developers can make use of the features of this specifica
     "federal_tax_id": "123456789",
     "tax_exempt": true,
     "tax_exempt_number": "123456789",
-    "tax_exempt_form_uri": "",
     "notes": "",
 }
 ```
